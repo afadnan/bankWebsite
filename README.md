@@ -1,8 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/PuOVqP_cjkE?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/banking/assets/151519281/3c03519c-7ebd-4539-b598-49e63d1770b4" alt="Project Banner">
-    </a>
+    <img src="https://github.com/adrianhajdin/banking/assets/151519281/3c03519c-7ebd-4539-b598-49e63d1770b4" alt="Project Banner">
   <br />
   
   <div>
@@ -15,7 +13,7 @@
   <h3 align="center">A Fintech Bank Application</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+     Developed by Team Nexus: <a href="mailto:Souvik.ghosh.9279@gmail.com" target="_blank"><b>Souvik Ghosh</b></a> and <a href="mailto:af.adnan23@gmail.com" target="_blank"><b>Adnan Ashraf</b></a>
     </div>
 </div>
 
@@ -29,21 +27,21 @@
 6. 🔗 [Assets](#links)
 7. 🚀 [More](#more)
 
-## 🚨 Tutorial
+## 🚨 Project Overview
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+This repository contains a fintech banking application developed by Team Nexus. The project demonstrates our skills in building modern web applications using Next.js, TypeScript, and various financial APIs.
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/PuOVqP_cjkE?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+For any questions or support, please contact us:
+- Souvik Ghosh: <a href="mailto:Souvik.ghosh.9279@gmail.com">Souvik.ghosh.9279@gmail.com</a>
+- Adnan Ashraf: <a href="mailto:af.adnan23@gmail.com">af.adnan23@gmail.com</a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
 Built with Next.js, Horizon is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether. 
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
+This project was developed by Team Nexus, consisting of Souvik Ghosh and Adnan Ashraf. We've created this application to demonstrate our expertise in modern web development and financial technology integration.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+If you have any questions or need assistance with this project, please reach out to us via email.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -60,21 +58,21 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Authentication**: An ultra-secure SSR authentication with proper validations and authorization
+👉 *Authentication*: An ultra-secure SSR authentication with proper validations and authorization
 
-👉 **Connect Banks**: Integrates with Plaid for multiple bank account linking
+👉 *Connect Banks*: Integrates with Plaid for multiple bank account linking
 
-👉 **Home Page**: Shows general overview of user account with total balance from all connected banks, recent transactions, money spent on different categories, etc
+👉 *Home Page*: Shows general overview of user account with total balance from all connected banks, recent transactions, money spent on different categories, etc
 
-👉 **My Banks**: Check the complete list of all connected banks with respective balances, account details
+👉 *My Banks*: Check the complete list of all connected banks with respective balances, account details
 
-👉 **Transaction History**: Includes pagination and filtering options for viewing transaction history of different banks
+👉 *Transaction History*: Includes pagination and filtering options for viewing transaction history of different banks
 
-👉 **Real-time Updates**: Reflects changes across all relevant pages upon connecting new bank accounts.
+👉 *Real-time Updates*: Reflects changes across all relevant pages upon connecting new bank accounts.
 
-👉 **Funds Transfer**: Allows users to transfer funds using Dwolla to other accounts with required fields and recipient bank ID.
+👉 *Funds Transfer*: Allows users to transfer funds using Dwolla to other accounts with required fields and recipient bank ID.
 
-👉 **Responsiveness**: Ensures the application adapts seamlessly to various screen sizes and devices, providing a consistent user experience across desktop, tablet, and mobile platforms.
+👉 *Responsiveness*: Ensures the application adapts seamlessly to various screen sizes and devices, providing a consistent user experience across desktop, tablet, and mobile platforms.
 
 and many more, including code architecture and reusability. 
 
@@ -82,7 +80,7 @@ and many more, including code architecture and reusability.
 
 Follow these steps to set up the project locally on your machine.
 
-**Prerequisites**
+*Prerequisites*
 
 Make sure you have the following installed on your machine:
 
@@ -90,26 +88,26 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
+*Cloning the Repository*
 
-```bash
-git clone https://github.com/adrianhajdin/banking.git
+bash
+git clone https://github.com/nexus/banking.git
 cd banking
-```
 
-**Installation**
+
+*Installation*
 
 Install the project dependencies using npm:
 
-```bash
+bash
 npm install
-```
 
-**Set Up Environment Variables**
 
-Create a new file named `.env` in the root of your project and add the following content:
+*Set Up Environment Variables*
 
-```env
+Create a new file named .env in the root of your project and add the following content:
+
+env
 #NEXT
 NEXT_PUBLIC_SITE_URL=
 
@@ -135,15 +133,15 @@ DWOLLA_SECRET=
 DWOLLA_BASE_URL=https://api-sandbox.dwolla.com
 DWOLLA_ENV=sandbox
 
-```
+
 
 Replace the placeholder values with your actual respective account credentials. You can obtain these credentials by signing up on the [Appwrite](https://appwrite.io/?utm_source=youtube&utm_content=reactnative&ref=JSmastery), [Plaid](https://plaid.com/) and [Dwolla](https://www.dwolla.com/)
 
-**Running the Project**
+*Running the Project*
 
-```bash
+bash
 npm run dev
-```
+
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
@@ -152,7 +150,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 <details>
 <summary><code>.env.example</code></summary>
 
-```env
+env
 #NEXT
 NEXT_PUBLIC_SITE_URL=
 
@@ -177,14 +175,14 @@ DWOLLA_KEY=
 DWOLLA_SECRET=
 DWOLLA_BASE_URL=https://api-sandbox.dwolla.com
 DWOLLA_ENV=sandbox
-```
+
 
 </details>
 
 <details>
 <summary><code>exchangePublicToken</code></summary>
 
-```typescript
+typescript
 // This function exchanges a public token for an access token and item ID
 export const exchangePublicToken = async ({
   publicToken,
@@ -249,14 +247,14 @@ export const exchangePublicToken = async ({
     console.error("An error occurred while creating exchanging token:", error);
   }
 };
-```
+
 
 </details>
 
 <details>
 <summary><code>user.actions.ts</code></summary>
 
-```typescript
+typescript
 "use server";
 
 import { revalidatePath } from "next/cache";
@@ -583,14 +581,14 @@ export const getBankByAccountId = async ({
     return null;
   }
 };
-```
+
   
 </details>
 
 <details>
 <summary><code>dwolla.actions.ts</code></summary>
 
-```typescript
+typescript
 "use server";
 
 import { Client } from "dwolla-v2";
@@ -705,14 +703,14 @@ export const addFundingSource = async ({
     console.error("Transfer fund failed: ", err);
   }
 };
-```
+
 
 </details>
 
 <details>
 <summary><code>bank.actions.ts</code></summary>
 
-```typescript
+typescript
 "use server";
 
 import {
@@ -938,7 +936,7 @@ export const createTransfer = async () => {
     );
   }
 };
-```
+
 
 </details>
 
@@ -946,7 +944,7 @@ export const createTransfer = async () => {
 <details>
 <summary><code>BankTabItem.tsx</code></summary>
 
-```typescript
+typescript
 "use client";
 
 import { useSearchParams, useRouter } from "next/navigation";
@@ -984,14 +982,14 @@ export const BankTabItem = ({ account, appwriteItemId }: BankTabItemProps) => {
     </div>
   );
 };
-```
+
 
 </details>
 
 <details>
 <summary><code>BankInfo.tsx</code></summary>
 
-```typescript
+typescript
 "use client";
 
 import Image from "next/image";
@@ -1066,14 +1064,14 @@ const BankInfo = ({ account, appwriteItemId, type }: BankInfoProps) => {
 };
 
 export default BankInfo;
-```
+
 
 </details>
 
 <details>
 <summary><code>Copy.tsx</code></summary>
 
-```typescript
+typescript
 "use client";
 import { useState } from "react";
 
@@ -1139,14 +1137,14 @@ const Copy = ({ title }: { title: string }) => {
 };
 
 export default Copy;
-```
+
 
 </details>
 
 <details>
 <summary><code>PaymentTransferForm.tsx</code></summary>
 
-```typescript
+typescript
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -1402,14 +1400,14 @@ const PaymentTransferForm = ({ accounts }: PaymentTransferFormProps) => {
 };
 
 export default PaymentTransferForm;
-```
+
 
 </details>
 
 <details>
 <summary><code>Missing from the video (top right on the transaction list page) BankDropdown.tsx</code></summary>
 
-```typescript
+typescript
 "use client";
 
 import Image from "next/image";
@@ -1494,14 +1492,14 @@ export const BankDropdown = ({
     </Select>
   );
 };
-```
+
   
 </details>
 
 <details>
 <summary><code>Pagination.tsx</code></summary>
 
-```typescript
+typescript
 "use client";
 
 import Image from "next/image";
@@ -1566,14 +1564,14 @@ export const Pagination = ({ page, totalPages }: PaginationProps) => {
     </div>
   );
 };
-```
+
 
 </details>
 
 <details>
 <summary><code>Category.tsx</code></summary>
 
-```typescript
+typescript
 import Image from "next/image";
 
 import { topCategoryStyles } from "@/constants";
@@ -1610,20 +1608,20 @@ export const Category = ({ category }: CategoryProps) => {
     </div>
   );
 };
-```
+
 
 </details>
 
 ## <a name="links">🔗 Links</a>
 
-Assets used in the project can be found [here](https://drive.google.com/file/d/1TVhdnD97LajGsyaiNa6sDs-ap-z1oerA/view?usp=sharing)
 
-## <a name="more">🚀 More</a>
+## <a name="more">🚀 Contact Team Nexus</a>
 
-**Advance your skills with Next.js Pro Course**
+*Get in Touch With Us*
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning experience. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+Interested in collaborating or have questions about this project? Feel free to reach out to Team Nexus members:
 
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
+- *Souvik Ghosh*: [Souvik.ghosh.9279@gmail.com](mailto:Souvik.ghosh.9279@gmail.com)
+- *Adnan Ashraf*: [af.adnan23@gmail.com](mailto:af.adnan23@gmail.com)
+
+We're always open to feedback, suggestions, and potential collaboration opportunities!
